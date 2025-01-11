@@ -28,12 +28,6 @@ const geometry = new THREE.BoxGeometry(
 // Store original vertex positions for reference
 const originalPositions = geometry.attributes.position.array.slice();
 
-// const material = new THREE.MeshPhongMaterial({
-//   color: 0xffff00,
-//   flatShading: false,
-//   shininess: 30,
-// });
-
 const material = new THREE.MeshPhongMaterial({
   color: 0xffff00,
   flatShading: false,
